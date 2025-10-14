@@ -1,0 +1,64 @@
+body {
+  font-family: "TT Lakes";
+  box-sizing: border-box;
+}
+
+.page {
+  background: #f8f8fa;
+  width: 100%;
+}
+.header_title {
+  font-family: "TT Lakes";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7e7e82;
+  margin: 24px;
+  padding-top: 16px;
+}
+
+.main {
+  /* margin-left: 24px; */
+  display: flex;
+}
+
+.main_brands {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main_button {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+
+  width: 240px;
+  height: 72px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.underworld_button {
+  font-family: "TT Lakes";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1b1c21;
+  background: #f8f8fa;
+  border: none;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+@media (min-width: 468px) and (max-width: 800px) {
+  .main_button {
+    width: 224px;
+  }
+}
