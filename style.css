@@ -20,16 +20,10 @@ button {
   cursor: pointer;
 }
 
-.main {
-  /* margin-left: 24px; */
+/* .main {
+  margin-left: 24px;
   display: flex;
-}
-
-.main_brands {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+} */
 
 .main_button {
   padding: 16px;
@@ -56,8 +50,12 @@ button {
   color: #1b1c21;
   background: #f8f8fa;
   border: none;
-  margin-bottom: 24px;
+  /* margin-bottom: 50px; */
   margin-left: 24px;
+}
+
+.main_underworld {
+  padding-bottom: 30px;
 }
 .hide {
   display: none;
@@ -67,8 +65,38 @@ button {
   display: none;
 }
 
-@media (min-width: 468px) and (max-width: 800px) {
+@media (min-width: 280px) and (max-width: 519px) {
+  .main_underworld {
+    display: none;
+  }
+
+  .header_title {
+    margin: 16px;
+  }
+
+  .main_button {
+    margin-left: 16px;
+  }
+  .swiper-wrapper {
+    /* display: flex;
+    flex-wrap: nowrap; */
+  }
+}
+
+@media (min-width: 520px) and (max-width: 800px) {
   .main_button {
     width: 224px;
+  }
+  .main_brands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 800px) and (max-width: 2200px) {
+  .main_brands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }

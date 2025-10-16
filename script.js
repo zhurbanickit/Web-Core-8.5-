@@ -11,3 +11,5 @@ document.querySelector(".show").onclick = function () {
   document.querySelector(".hide").style.display = "flex";
   document.querySelector(".hidden_buttons").style.display = "flex";
 };
+
+new Swiper(".swiper-wrapper"),
